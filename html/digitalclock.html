@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <script src="digitalclock.js" defer></script>
+    <link rel="stylesheet" href="digitalclock.css">
+</head>
+<body onload="clock()">
+    <div id="container">
+        <h1 id="Time"></h1>
+        <h1 id="Date"></h1>
+        <h1 id="Day"></h1>
+    </div>
+    <h1 id="Sec"></h1>
+    <div id="greet">
+        <h1 id="GreetMessage"></h1>
+        <p id="close" onclick="closewind()">X</p>
+        <video id="bgVid" autoplay muted lop></video>
+    </div>
+</body>
+</html>
